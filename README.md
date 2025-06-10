@@ -40,3 +40,6 @@ The analog signal is first captured by a microphone, which converts the sound wa
 5. generate_future_frames
 6. mel_to_audio
 
+### Further recommendations
+1. Integration with NLP: We provide a prompt and audio is generated according to the setting.
+2. Audio conversion: We provide a audio clip which AI converts to Lo-fi audio.
