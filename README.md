@@ -40,4 +40,3 @@ The analog signal is first captured by a microphone, which converts the sound wa
 5. generate_future_frames
 6. mel_to_audio
 
-7. 
