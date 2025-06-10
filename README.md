@@ -23,3 +23,21 @@ The analog signal is first captured by a microphone, which converts the sound wa
 1. Dissected long audio clips in 30 second .wav files.
 2. Padded 0s to the ones which were less than 30 seconds.
 3. The files were clean so there was no need to clear noise form the files.
+
+### Feature extraction
+1. Duration
+2. Tempo
+3. Mel Spectograms - We defined a function to generate mel Spectogram.
+4. Duration
+5. Filename - The file the clip belonged to.
+6. Genre
+
+### Defined functions:
+1. waveform_to_mel
+2. split_mel_segments
+3. MelSpectrogramDataset
+4. TransformerMelGenerator
+5. generate_future_frames
+6. mel_to_audio
+
+7. 
